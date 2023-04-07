@@ -50,7 +50,7 @@ const USER_CONFIG = {
     earthyLoveWords: true,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     poisonChickenSoup: false,
@@ -68,7 +68,7 @@ const USER_CONFIG = {
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule:false,
+    courseSchedule:true,
   },
   
   TIAN_API: {
@@ -113,7 +113,7 @@ const USER_CONFIG = {
       id: 'otHp06BRCPFLouBPUtoqGfLaf4aQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '0Kke4_9JMZpCZRfFHIpR2ZdGA_rhyh5GW1xzDRdalUE',
+      useTemplateId: 'RNd2YQ7J-rxo9dJAgZ825MGIPHf3sV5XZPG4WnnDsFk',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
@@ -151,7 +151,7 @@ const USER_CONFIG = {
         // 单双周的基准
         benchmark: {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
-          date: '2023-04-06',
+          date: '2023-04-07',
           // 该日期是否为单周
           isOdd: true
         },
@@ -198,13 +198,20 @@ const USER_CONFIG = {
           ],
           // 双周课表
           even: [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'],
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'],
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'],
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'],
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'],
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'],
+            [ '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理']
           ]
         }
       },
