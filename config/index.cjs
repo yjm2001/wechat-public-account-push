@@ -107,13 +107,13 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '超人',
+      name: '刘欣',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'otHp06BRCPFLouBPUtoqGfLaf4aQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '0aQ1skb6F8s4GKlga8a7K80_PC3cPhlPowQ33hP4GB8',
+      useTemplateId: '0Kke4_9JMZpCZRfFHIpR2ZdGA_rhyh5GW1xzDRdalUE',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
@@ -128,18 +128,16 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '生日', name: '怪兽', year: '2001', date: '08-29',
+          type: '生日', name: '宝宝', year: '2003', date: '04-29',
         },
        
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '超人', year: '2001', date: '12-22',
-        },
+      
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2020-04-03' },
+        { keyword: 'love_day', date: '2021-09-19' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -213,13 +211,13 @@ const USER_CONFIG = {
     },
     {
       // 想要发送的人的名字
-      name: '怪兽',
+      name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oatre6uYtp3VCBJzZoDVIIxf3gyM',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'VqBzCral3Q6RWdfKv7HsTnXD_gsuKDspogbuktJtA9Q',
+      useTemplateId: '',
       // 所在省份或城市，也可以不填
       province: '阿克苏',
       // 所在城市或县区
@@ -284,7 +282,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'okDcJ6MiA7CXdqOy9YUxNEAChj7c',
+      id: '',
     }
     // 你可以不断按格式往下增加
     // ...
